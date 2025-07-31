@@ -1,0 +1,18 @@
+<mvc:View xmlns:form="sap.ui.layout.form" xmlns:mvc="sap.ui.core.mvc"
+          xmlns="sap.m"
+          xmlns:f="sap.f"
+          controllerName="ui5.train.train.controller.BookDetail">
+
+          <Page
+            title="{i18n>detailPageTitle}"
+              showNavButton="true"
+              navButtonPress=".onNavBack">
+            <ObjectHeader 
+              intro="{bookllist>author}, {bookllist>year}"
+              title="Book = {bookllist>title}, year = {bookllist>year}, email = {bookllist>email}, {bookllist>id}"
+                />
+          </Page>
+
+
+  
+</mvc:View>

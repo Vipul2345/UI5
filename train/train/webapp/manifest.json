@@ -1,0 +1,114 @@
+{
+  "_version": "1.65.0",
+  "sap.app": {
+    "id": "ui5.train.train",
+    "type": "application",
+    "i18n": "i18n/i18n.properties",
+    "applicationVersion": {
+      "version": "0.0.1"
+    },
+    "title": "{{appTitle}}",
+    "description": "{{appDescription}}",
+    "resources": "resources.json",
+    "sourceTemplate": {
+      "id": "@sap/generator-fiori:basic",
+      "version": "1.18.3",
+      "toolsId": "c43e2ce0-dd08-4f5d-a02f-ff47df15b82a"
+    }
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "icons": {
+      "icon": "",
+      "favIcon": "",
+      "phone": "",
+      "phone@2": "",
+      "tablet": "",
+      "tablet@2": ""
+    },
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    }
+  },
+  "sap.ui5": {
+    "flexEnabled": false,
+    "dependencies": {
+      "minUI5Version": "1.138.1",
+      "libs": {
+        "sap.m": {},
+        "sap.f": {},
+        "sap.ui.core": {}
+      }
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "ui5.train.train.i18n.i18n"
+        }
+      },
+      "bookllist" : {
+        "uri": "./bookStore.json",
+        "type": "sap.ui.model.json.JSONModel"
+      }
+    },
+    "resources": {
+      "css": [
+        {
+          "uri": "css/style.css"
+        }
+      ]
+    },
+    "routing": {
+      "config": {
+        "routerClass": "sap.m.routing.Router",
+        "controlAggregation": "pages",
+        "controlId": "app",
+        "transition": "slide",
+        "type": "View",
+        "viewType": "XML",
+        "path": "ui5.train.train.view",
+        "async": true,
+        "viewPath": "ui5.train.train.view"
+      },
+      "routes": [
+        {
+          "name": "Routetrain",
+          "pattern": ":?query:",
+          "target": [
+            "Targettrain"
+          ]
+        },
+        {
+          "name": "BookDetail",
+          "pattern": "bookdetail/{bookNumber}",
+          "target": [
+            "BookDetail"
+          ]
+        }
+      ],
+      "targets": {
+        "Targettrain": {
+          "id": "train",
+          "name": "train"
+        },
+        "BookDetail": {
+          "id": "BookDetail",
+          "name": "BookDetail"
+        }
+      }
+    },
+    "rootView": {
+      "viewName": "ui5.train.train.view.App",
+      "type": "XML",
+      "id": "App",
+      "async": true
+    }
+  }
+}

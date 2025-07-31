@@ -1,0 +1,1004 @@
+{
+   "Book" : [
+  {
+    "id": 0,
+    "title": "est non",
+    "author": "Houston Estrada",
+    "co-author": "Morris Bush",
+    "year": 7313,
+    "email": "morrisbush@acumentor.com",
+    "phone": "+1 (823) 446-3331",
+    "picture": "https://picsum.photos/200"
+  },
+  {
+    "id": 1,
+    "title": "quis fugiat",
+    "author": "Polly Foley",
+    "co-author": "Rachel Dyer",
+    "year": 4951,
+    "email": "racheldyer@acumentor.com",
+    "phone": "+1 (986) 490-3246",
+    "picture": "https://picsum.photos/201"
+  },
+  {
+    "id": 2,
+    "title": "in ullamco",
+    "author": "Mooney Abbott",
+    "co-author": "Catherine Mcbride",
+    "year": 8316,
+    "email": "catherinemcbride@acumentor.com",
+    "phone": "+1 (823) 583-3825",
+    "picture": "https://picsum.photos/202"
+  },
+  {
+    "id": 3,
+    "title": "ullamco minim",
+    "author": "Watkins Reeves",
+    "co-author": "Rivera Santana",
+    "year": 9596,
+    "email": "riverasantana@acumentor.com",
+    "phone": "+1 (950) 528-2871",
+    "picture": "https://picsum.photos/203"
+  },
+  {
+    "id": 4,
+    "title": "dolor excepteur",
+    "author": "Hahn Rosa",
+    "co-author": "Robert Warner",
+    "year": 5828,
+    "email": "robertwarner@acumentor.com",
+    "phone": "+1 (933) 511-3350",
+    "picture": "https://picsum.photos/204"
+  },
+  {
+    "id": 5,
+    "title": "ex duis",
+    "author": "Holly Mckenzie",
+    "co-author": "Johnston Merrill",
+    "year": 7295,
+    "email": "johnstonmerrill@acumentor.com",
+    "phone": "+1 (866) 425-2006",
+    "picture": "https://picsum.photos/205"
+  },
+  {
+    "id": 6,
+    "title": "anim minim",
+    "author": "Celia Barrera",
+    "co-author": "Paula Kramer",
+    "year": 4147,
+    "email": "paulakramer@acumentor.com",
+    "phone": "+1 (995) 581-2634",
+    "picture": "https://picsum.photos/206"
+  },
+  {
+    "id": 7,
+    "title": "Lorem irure",
+    "author": "Miranda Mcdowell",
+    "co-author": "Dana Carney",
+    "year": 6654,
+    "email": "danacarney@acumentor.com",
+    "phone": "+1 (973) 551-2907",
+    "picture": "https://picsum.photos/207"
+  },
+  {
+    "id": 8,
+    "title": "occaecat quis",
+    "author": "Cabrera Byrd",
+    "co-author": "Sylvia Cruz",
+    "year": 9317,
+    "email": "sylviacruz@acumentor.com",
+    "phone": "+1 (995) 462-2297",
+    "picture": "https://picsum.photos/208"
+  },
+  {
+    "id": 9,
+    "title": "amet incididunt",
+    "author": "Hobbs Lindsey",
+    "co-author": "Todd Spence",
+    "year": 4230,
+    "email": "toddspence@acumentor.com",
+    "phone": "+1 (902) 423-2163",
+    "picture": "https://picsum.photos/209"
+  },
+  {
+    "id": 10,
+    "title": "aliquip anim",
+    "author": "Stewart Dillon",
+    "co-author": "Gibson Fulton",
+    "year": 2231,
+    "email": "gibsonfulton@acumentor.com",
+    "phone": "+1 (855) 443-3240",
+    "picture": "https://picsum.photos/2010"
+  },
+  {
+    "id": 11,
+    "title": "eiusmod cillum",
+    "author": "Frederick Langley",
+    "co-author": "Tracy Justice",
+    "year": 5841,
+    "email": "tracyjustice@acumentor.com",
+    "phone": "+1 (956) 415-3155",
+    "picture": "https://picsum.photos/2011"
+  },
+  {
+    "id": 12,
+    "title": "adipisicing sint",
+    "author": "Raquel Mcleod",
+    "co-author": "Janette Moses",
+    "year": 2757,
+    "email": "janettemoses@acumentor.com",
+    "phone": "+1 (901) 576-2716",
+    "picture": "https://picsum.photos/2012"
+  },
+  {
+    "id": 13,
+    "title": "ipsum cillum",
+    "author": "Kim Page",
+    "co-author": "Juliet Mclaughlin",
+    "year": 5006,
+    "email": "julietmclaughlin@acumentor.com",
+    "phone": "+1 (887) 529-2612",
+    "picture": "https://picsum.photos/2013"
+  },
+  {
+    "id": 14,
+    "title": "officia laboris",
+    "author": "Jeri Compton",
+    "co-author": "Matthews Chandler",
+    "year": 3000,
+    "email": "matthewschandler@acumentor.com",
+    "phone": "+1 (892) 403-3096",
+    "picture": "https://picsum.photos/2014"
+  },
+  {
+    "id": 15,
+    "title": "pariatur veniam",
+    "author": "Alejandra Shepherd",
+    "co-author": "Lacey Holt",
+    "year": 1468,
+    "email": "laceyholt@acumentor.com",
+    "phone": "+1 (883) 504-3358",
+    "picture": "https://picsum.photos/2015"
+  },
+  {
+    "id": 16,
+    "title": "consectetur veniam",
+    "author": "Lucas Schroeder",
+    "co-author": "Hawkins Frazier",
+    "year": 9470,
+    "email": "hawkinsfrazier@acumentor.com",
+    "phone": "+1 (876) 433-3119",
+    "picture": "https://picsum.photos/2016"
+  },
+  {
+    "id": 17,
+    "title": "cupidatat aliquip",
+    "author": "Tami Simmons",
+    "co-author": "Prince Burt",
+    "year": 8755,
+    "email": "princeburt@acumentor.com",
+    "phone": "+1 (971) 475-3615",
+    "picture": "https://picsum.photos/2017"
+  },
+  {
+    "id": 18,
+    "title": "sit aliqua",
+    "author": "Alta Cummings",
+    "co-author": "Janet Zamora",
+    "year": 1410,
+    "email": "janetzamora@acumentor.com",
+    "phone": "+1 (921) 532-2997",
+    "picture": "https://picsum.photos/2018"
+  },
+  {
+    "id": 19,
+    "title": "dolore eu",
+    "author": "Sybil Pickett",
+    "co-author": "Richard Richards",
+    "year": 6741,
+    "email": "richardrichards@acumentor.com",
+    "phone": "+1 (958) 545-2947",
+    "picture": "https://picsum.photos/2019"
+  },
+  {
+    "id": 20,
+    "title": "ipsum laboris",
+    "author": "Grant Lopez",
+    "co-author": "Pearlie Hughes",
+    "year": 6157,
+    "email": "pearliehughes@acumentor.com",
+    "phone": "+1 (956) 475-2474",
+    "picture": "https://picsum.photos/2020"
+  },
+  {
+    "id": 21,
+    "title": "deserunt amet",
+    "author": "Buckner Sawyer",
+    "co-author": "Jodie Castaneda",
+    "year": 1256,
+    "email": "jodiecastaneda@acumentor.com",
+    "phone": "+1 (907) 402-2017",
+    "picture": "https://picsum.photos/2021"
+  },
+  {
+    "id": 22,
+    "title": "officia nisi",
+    "author": "Marjorie Hines",
+    "co-author": "Caroline Flynn",
+    "year": 1302,
+    "email": "carolineflynn@acumentor.com",
+    "phone": "+1 (893) 520-3245",
+    "picture": "https://picsum.photos/2022"
+  },
+  {
+    "id": 23,
+    "title": "non voluptate",
+    "author": "Ladonna Blair",
+    "co-author": "Patti Glover",
+    "year": 2483,
+    "email": "pattiglover@acumentor.com",
+    "phone": "+1 (890) 513-2250",
+    "picture": "https://picsum.photos/2023"
+  },
+  {
+    "id": 24,
+    "title": "consequat Lorem",
+    "author": "Mavis Molina",
+    "co-author": "Cummings Koch",
+    "year": 4312,
+    "email": "cummingskoch@acumentor.com",
+    "phone": "+1 (954) 448-2782",
+    "picture": "https://picsum.photos/2024"
+  },
+  {
+    "id": 25,
+    "title": "duis ad",
+    "author": "Manning Bowers",
+    "co-author": "Stephenson Byers",
+    "year": 8523,
+    "email": "stephensonbyers@acumentor.com",
+    "phone": "+1 (926) 468-3655",
+    "picture": "https://picsum.photos/2025"
+  },
+  {
+    "id": 26,
+    "title": "esse mollit",
+    "author": "Aguirre Clarke",
+    "co-author": "Snyder Fry",
+    "year": 2457,
+    "email": "snyderfry@acumentor.com",
+    "phone": "+1 (950) 561-2907",
+    "picture": "https://picsum.photos/2026"
+  },
+  {
+    "id": 27,
+    "title": "proident occaecat",
+    "author": "Curtis Livingston",
+    "co-author": "Wilson Allen",
+    "year": 4895,
+    "email": "wilsonallen@acumentor.com",
+    "phone": "+1 (972) 586-3241",
+    "picture": "https://picsum.photos/2027"
+  },
+  {
+    "id": 28,
+    "title": "anim nulla",
+    "author": "Desiree Butler",
+    "co-author": "Cristina Mathews",
+    "year": 5424,
+    "email": "cristinamathews@acumentor.com",
+    "phone": "+1 (885) 446-3860",
+    "picture": "https://picsum.photos/2028"
+  },
+  {
+    "id": 29,
+    "title": "in occaecat",
+    "author": "Justine Wade",
+    "co-author": "Berger Silva",
+    "year": 1911,
+    "email": "bergersilva@acumentor.com",
+    "phone": "+1 (902) 406-2230",
+    "picture": "https://picsum.photos/2029"
+  },
+  {
+    "id": 30,
+    "title": "do ad",
+    "author": "Steele Pierce",
+    "co-author": "Cooke Todd",
+    "year": 2914,
+    "email": "cooketodd@acumentor.com",
+    "phone": "+1 (944) 519-3701",
+    "picture": "https://picsum.photos/2030"
+  },
+  {
+    "id": 31,
+    "title": "anim commodo",
+    "author": "Fuentes Adams",
+    "co-author": "Corinne Morin",
+    "year": 7337,
+    "email": "corinnemorin@acumentor.com",
+    "phone": "+1 (956) 416-2881",
+    "picture": "https://picsum.photos/2031"
+  },
+  {
+    "id": 32,
+    "title": "ex non",
+    "author": "Lane Davenport",
+    "co-author": "Ortega Fletcher",
+    "year": 6553,
+    "email": "ortegafletcher@acumentor.com",
+    "phone": "+1 (942) 460-3103",
+    "picture": "https://picsum.photos/2032"
+  },
+  {
+    "id": 33,
+    "title": "aute reprehenderit",
+    "author": "Day York",
+    "co-author": "Rodriquez David",
+    "year": 5428,
+    "email": "rodriquezdavid@acumentor.com",
+    "phone": "+1 (864) 494-2474",
+    "picture": "https://picsum.photos/2033"
+  },
+  {
+    "id": 34,
+    "title": "veniam nostrud",
+    "author": "Vincent Wilkinson",
+    "co-author": "Sondra Reynolds",
+    "year": 6518,
+    "email": "sondrareynolds@acumentor.com",
+    "phone": "+1 (837) 563-2496",
+    "picture": "https://picsum.photos/2034"
+  },
+  {
+    "id": 35,
+    "title": "officia sit",
+    "author": "Wilkinson Chan",
+    "co-author": "Clarissa Mack",
+    "year": 8760,
+    "email": "clarissamack@acumentor.com",
+    "phone": "+1 (822) 521-3184",
+    "picture": "https://picsum.photos/2035"
+  },
+  {
+    "id": 36,
+    "title": "amet laboris",
+    "author": "Chrystal Stein",
+    "co-author": "Dillard Dejesus",
+    "year": 9257,
+    "email": "dillarddejesus@acumentor.com",
+    "phone": "+1 (993) 435-3976",
+    "picture": "https://picsum.photos/2036"
+  },
+  {
+    "id": 37,
+    "title": "nisi pariatur",
+    "author": "Miles Stafford",
+    "co-author": "Evans Collins",
+    "year": 7487,
+    "email": "evanscollins@acumentor.com",
+    "phone": "+1 (886) 446-3880",
+    "picture": "https://picsum.photos/2037"
+  },
+  {
+    "id": 38,
+    "title": "aliquip laboris",
+    "author": "Chavez Baird",
+    "co-author": "Conner Jordan",
+    "year": 7438,
+    "email": "connerjordan@acumentor.com",
+    "phone": "+1 (881) 600-3127",
+    "picture": "https://picsum.photos/2038"
+  },
+  {
+    "id": 39,
+    "title": "eu irure",
+    "author": "Adela Maxwell",
+    "co-author": "Rojas Bishop",
+    "year": 2536,
+    "email": "rojasbishop@acumentor.com",
+    "phone": "+1 (904) 507-3208",
+    "picture": "https://picsum.photos/2039"
+  },
+  {
+    "id": 40,
+    "title": "ea laborum",
+    "author": "Garcia Cantu",
+    "co-author": "Latisha Mckee",
+    "year": 2225,
+    "email": "latishamckee@acumentor.com",
+    "phone": "+1 (928) 465-2022",
+    "picture": "https://picsum.photos/2040"
+  },
+  {
+    "id": 41,
+    "title": "deserunt labore",
+    "author": "Dodson Walker",
+    "co-author": "Weaver Key",
+    "year": 6017,
+    "email": "weaverkey@acumentor.com",
+    "phone": "+1 (810) 485-2565",
+    "picture": "https://picsum.photos/2041"
+  },
+  {
+    "id": 42,
+    "title": "eiusmod Lorem",
+    "author": "Stella Norris",
+    "co-author": "Margie Buckner",
+    "year": 1141,
+    "email": "margiebuckner@acumentor.com",
+    "phone": "+1 (882) 460-3705",
+    "picture": "https://picsum.photos/2042"
+  },
+  {
+    "id": 43,
+    "title": "amet ea",
+    "author": "Hamilton Vargas",
+    "co-author": "Atkinson Holden",
+    "year": 3183,
+    "email": "atkinsonholden@acumentor.com",
+    "phone": "+1 (987) 510-3484",
+    "picture": "https://picsum.photos/2043"
+  },
+  {
+    "id": 44,
+    "title": "enim in",
+    "author": "Ina Mccray",
+    "co-author": "Webster Downs",
+    "year": 8466,
+    "email": "websterdowns@acumentor.com",
+    "phone": "+1 (952) 543-3578",
+    "picture": "https://picsum.photos/2044"
+  },
+  {
+    "id": 45,
+    "title": "pariatur reprehenderit",
+    "author": "Rosetta Steele",
+    "co-author": "Dean Barry",
+    "year": 8400,
+    "email": "deanbarry@acumentor.com",
+    "phone": "+1 (880) 508-2978",
+    "picture": "https://picsum.photos/2045"
+  },
+  {
+    "id": 46,
+    "title": "sunt anim",
+    "author": "Toni Foster",
+    "co-author": "Hatfield Jenkins",
+    "year": 2105,
+    "email": "hatfieldjenkins@acumentor.com",
+    "phone": "+1 (989) 576-3409",
+    "picture": "https://picsum.photos/2046"
+  },
+  {
+    "id": 47,
+    "title": "aliquip dolore",
+    "author": "Kaye George",
+    "co-author": "Gregory Dean",
+    "year": 4875,
+    "email": "gregorydean@acumentor.com",
+    "phone": "+1 (987) 535-2523",
+    "picture": "https://picsum.photos/2047"
+  },
+  {
+    "id": 48,
+    "title": "Lorem proident",
+    "author": "Liza Browning",
+    "co-author": "Juliette Mcmillan",
+    "year": 9624,
+    "email": "juliettemcmillan@acumentor.com",
+    "phone": "+1 (997) 428-2749",
+    "picture": "https://picsum.photos/2048"
+  },
+  {
+    "id": 49,
+    "title": "aliquip dolore",
+    "author": "Tate Goff",
+    "co-author": "Patricia Osborn",
+    "year": 8700,
+    "email": "patriciaosborn@acumentor.com",
+    "phone": "+1 (878) 465-2421",
+    "picture": "https://picsum.photos/2049"
+  },
+  {
+    "id": 50,
+    "title": "eiusmod dolor",
+    "author": "Acevedo Vincent",
+    "co-author": "Haney Simpson",
+    "year": 8865,
+    "email": "haneysimpson@acumentor.com",
+    "phone": "+1 (936) 584-2678",
+    "picture": "https://picsum.photos/2050"
+  },
+  {
+    "id": 51,
+    "title": "incididunt ad",
+    "author": "Melissa Lucas",
+    "co-author": "Mccray Benson",
+    "year": 4726,
+    "email": "mccraybenson@acumentor.com",
+    "phone": "+1 (921) 554-3146",
+    "picture": "https://picsum.photos/2051"
+  },
+  {
+    "id": 52,
+    "title": "laborum anim",
+    "author": "Garza Carlson",
+    "co-author": "Roberson Bright",
+    "year": 4325,
+    "email": "robersonbright@acumentor.com",
+    "phone": "+1 (955) 578-3091",
+    "picture": "https://picsum.photos/2052"
+  },
+  {
+    "id": 53,
+    "title": "Lorem do",
+    "author": "Christian Campbell",
+    "co-author": "Alvarez Norton",
+    "year": 9366,
+    "email": "alvareznorton@acumentor.com",
+    "phone": "+1 (860) 575-2715",
+    "picture": "https://picsum.photos/2053"
+  },
+  {
+    "id": 54,
+    "title": "laboris est",
+    "author": "Mejia Powers",
+    "co-author": "Deana Powell",
+    "year": 6482,
+    "email": "deanapowell@acumentor.com",
+    "phone": "+1 (906) 555-3368",
+    "picture": "https://picsum.photos/2054"
+  },
+  {
+    "id": 55,
+    "title": "ea duis",
+    "author": "Eleanor Rojas",
+    "co-author": "Janelle French",
+    "year": 4003,
+    "email": "janellefrench@acumentor.com",
+    "phone": "+1 (866) 550-3089",
+    "picture": "https://picsum.photos/2055"
+  },
+  {
+    "id": 56,
+    "title": "et cupidatat",
+    "author": "Bean Barlow",
+    "co-author": "Cindy Vaughan",
+    "year": 8793,
+    "email": "cindyvaughan@acumentor.com",
+    "phone": "+1 (888) 600-3502",
+    "picture": "https://picsum.photos/2056"
+  },
+  {
+    "id": 57,
+    "title": "consectetur cupidatat",
+    "author": "Parker Herring",
+    "co-author": "Katelyn Ross",
+    "year": 4124,
+    "email": "katelynross@acumentor.com",
+    "phone": "+1 (854) 485-2182",
+    "picture": "https://picsum.photos/2057"
+  },
+  {
+    "id": 58,
+    "title": "eu dolor",
+    "author": "Karina Salas",
+    "co-author": "Carey Holland",
+    "year": 3428,
+    "email": "careyholland@acumentor.com",
+    "phone": "+1 (809) 407-2029",
+    "picture": "https://picsum.photos/2058"
+  },
+  {
+    "id": 59,
+    "title": "elit occaecat",
+    "author": "Marcella Cortez",
+    "co-author": "Virginia Hickman",
+    "year": 9168,
+    "email": "virginiahickman@acumentor.com",
+    "phone": "+1 (971) 537-2792",
+    "picture": "https://picsum.photos/2059"
+  },
+  {
+    "id": 60,
+    "title": "nostrud labore",
+    "author": "Short Villarreal",
+    "co-author": "Carol Edwards",
+    "year": 5012,
+    "email": "caroledwards@acumentor.com",
+    "phone": "+1 (865) 422-3327",
+    "picture": "https://picsum.photos/2060"
+  },
+  {
+    "id": 61,
+    "title": "Lorem deserunt",
+    "author": "Wood Carson",
+    "co-author": "Sanchez Bolton",
+    "year": 9301,
+    "email": "sanchezbolton@acumentor.com",
+    "phone": "+1 (834) 522-3730",
+    "picture": "https://picsum.photos/2061"
+  },
+  {
+    "id": 62,
+    "title": "aliquip nostrud",
+    "author": "Rogers Ballard",
+    "co-author": "Clarke Day",
+    "year": 5472,
+    "email": "clarkeday@acumentor.com",
+    "phone": "+1 (892) 557-2120",
+    "picture": "https://picsum.photos/2062"
+  },
+  {
+    "id": 63,
+    "title": "duis proident",
+    "author": "Minnie Flores",
+    "co-author": "Deena Wolf",
+    "year": 2281,
+    "email": "deenawolf@acumentor.com",
+    "phone": "+1 (830) 523-3417",
+    "picture": "https://picsum.photos/2063"
+  },
+  {
+    "id": 64,
+    "title": "velit et",
+    "author": "Malone Fuller",
+    "co-author": "Meagan Wallace",
+    "year": 8027,
+    "email": "meaganwallace@acumentor.com",
+    "phone": "+1 (840) 533-2776",
+    "picture": "https://picsum.photos/2064"
+  },
+  {
+    "id": 65,
+    "title": "ex aute",
+    "author": "Lynne Mcclain",
+    "co-author": "Kent Parsons",
+    "year": 5725,
+    "email": "kentparsons@acumentor.com",
+    "phone": "+1 (952) 557-3108",
+    "picture": "https://picsum.photos/2065"
+  },
+  {
+    "id": 66,
+    "title": "labore cillum",
+    "author": "Nanette Pacheco",
+    "co-author": "Cortez Hancock",
+    "year": 1347,
+    "email": "cortezhancock@acumentor.com",
+    "phone": "+1 (997) 454-2435",
+    "picture": "https://picsum.photos/2066"
+  },
+  {
+    "id": 67,
+    "title": "in cupidatat",
+    "author": "Rosanne Dorsey",
+    "co-author": "Olson Kelley",
+    "year": 6992,
+    "email": "olsonkelley@acumentor.com",
+    "phone": "+1 (951) 416-3553",
+    "picture": "https://picsum.photos/2067"
+  },
+  {
+    "id": 68,
+    "title": "ut aliquip",
+    "author": "Berry Santos",
+    "co-author": "Gwendolyn Gonzales",
+    "year": 3223,
+    "email": "gwendolyngonzales@acumentor.com",
+    "phone": "+1 (986) 545-2479",
+    "picture": "https://picsum.photos/2068"
+  },
+  {
+    "id": 69,
+    "title": "nulla non",
+    "author": "Scott Garza",
+    "co-author": "Lynch Webster",
+    "year": 4599,
+    "email": "lynchwebster@acumentor.com",
+    "phone": "+1 (891) 526-3321",
+    "picture": "https://picsum.photos/2069"
+  },
+  {
+    "id": 70,
+    "title": "incididunt et",
+    "author": "Fern Mccullough",
+    "co-author": "Effie Harmon",
+    "year": 7042,
+    "email": "effieharmon@acumentor.com",
+    "phone": "+1 (853) 413-3852",
+    "picture": "https://picsum.photos/2070"
+  },
+  {
+    "id": 71,
+    "title": "sint aliqua",
+    "author": "Geneva Vazquez",
+    "co-author": "Patrica Wilkins",
+    "year": 1023,
+    "email": "patricawilkins@acumentor.com",
+    "phone": "+1 (926) 459-2822",
+    "picture": "https://picsum.photos/2071"
+  },
+  {
+    "id": 72,
+    "title": "sunt et",
+    "author": "Jacobs Gregory",
+    "co-author": "Lawrence Paul",
+    "year": 5875,
+    "email": "lawrencepaul@acumentor.com",
+    "phone": "+1 (928) 454-3943",
+    "picture": "https://picsum.photos/2072"
+  },
+  {
+    "id": 73,
+    "title": "est fugiat",
+    "author": "Lydia Delgado",
+    "co-author": "Sherrie Hewitt",
+    "year": 4490,
+    "email": "sherriehewitt@acumentor.com",
+    "phone": "+1 (812) 530-2087",
+    "picture": "https://picsum.photos/2073"
+  },
+  {
+    "id": 74,
+    "title": "proident magna",
+    "author": "Yvette Howell",
+    "co-author": "Key Hayes",
+    "year": 9952,
+    "email": "keyhayes@acumentor.com",
+    "phone": "+1 (836) 404-3560",
+    "picture": "https://picsum.photos/2074"
+  },
+  {
+    "id": 75,
+    "title": "quis officia",
+    "author": "Wiley Potts",
+    "co-author": "Winifred Little",
+    "year": 5504,
+    "email": "winifredlittle@acumentor.com",
+    "phone": "+1 (823) 467-3412",
+    "picture": "https://picsum.photos/2075"
+  },
+  {
+    "id": 76,
+    "title": "Lorem cillum",
+    "author": "Mcfarland Hopkins",
+    "co-author": "Eloise Rivers",
+    "year": 5667,
+    "email": "eloiserivers@acumentor.com",
+    "phone": "+1 (930) 455-3651",
+    "picture": "https://picsum.photos/2076"
+  },
+  {
+    "id": 77,
+    "title": "sunt officia",
+    "author": "Baldwin Diaz",
+    "co-author": "Wooten Mcknight",
+    "year": 1487,
+    "email": "wootenmcknight@acumentor.com",
+    "phone": "+1 (990) 435-3656",
+    "picture": "https://picsum.photos/2077"
+  },
+  {
+    "id": 78,
+    "title": "ad quis",
+    "author": "Eunice Acevedo",
+    "co-author": "Roy Sullivan",
+    "year": 7153,
+    "email": "roysullivan@acumentor.com",
+    "phone": "+1 (999) 575-3754",
+    "picture": "https://picsum.photos/2078"
+  },
+  {
+    "id": 79,
+    "title": "laboris consequat",
+    "author": "Eileen Dotson",
+    "co-author": "Marsha Battle",
+    "year": 9251,
+    "email": "marshabattle@acumentor.com",
+    "phone": "+1 (811) 553-2337",
+    "picture": "https://picsum.photos/2079"
+  },
+  {
+    "id": 80,
+    "title": "anim dolore",
+    "author": "Odom House",
+    "co-author": "Stacey Shaffer",
+    "year": 3845,
+    "email": "staceyshaffer@acumentor.com",
+    "phone": "+1 (813) 459-3969",
+    "picture": "https://picsum.photos/2080"
+  },
+  {
+    "id": 81,
+    "title": "dolore et",
+    "author": "Bruce Vinson",
+    "co-author": "Chapman Washington",
+    "year": 7491,
+    "email": "chapmanwashington@acumentor.com",
+    "phone": "+1 (990) 567-2009",
+    "picture": "https://picsum.photos/2081"
+  },
+  {
+    "id": 82,
+    "title": "laboris elit",
+    "author": "Angelina Roberson",
+    "co-author": "Russell Mayo",
+    "year": 4719,
+    "email": "russellmayo@acumentor.com",
+    "phone": "+1 (952) 413-2340",
+    "picture": "https://picsum.photos/2082"
+  },
+  {
+    "id": 83,
+    "title": "labore ea",
+    "author": "Denise Peck",
+    "co-author": "Norma Gonzalez",
+    "year": 5263,
+    "email": "normagonzalez@acumentor.com",
+    "phone": "+1 (949) 593-2896",
+    "picture": "https://picsum.photos/2083"
+  },
+  {
+    "id": 84,
+    "title": "eu cillum",
+    "author": "Terri Sandoval",
+    "co-author": "Zimmerman Andrews",
+    "year": 6999,
+    "email": "zimmermanandrews@acumentor.com",
+    "phone": "+1 (811) 589-3888",
+    "picture": "https://picsum.photos/2084"
+  },
+  {
+    "id": 85,
+    "title": "minim labore",
+    "author": "Riggs Forbes",
+    "co-author": "Elvira Burnett",
+    "year": 7247,
+    "email": "elviraburnett@acumentor.com",
+    "phone": "+1 (831) 419-3494",
+    "picture": "https://picsum.photos/2085"
+  },
+  {
+    "id": 86,
+    "title": "ut ut",
+    "author": "Erickson Wells",
+    "co-author": "Alexandra Torres",
+    "year": 7742,
+    "email": "alexandratorres@acumentor.com",
+    "phone": "+1 (836) 455-2164",
+    "picture": "https://picsum.photos/2086"
+  },
+  {
+    "id": 87,
+    "title": "quis ad",
+    "author": "Huber Burch",
+    "co-author": "Madelyn Hays",
+    "year": 1512,
+    "email": "madelynhays@acumentor.com",
+    "phone": "+1 (933) 523-3050",
+    "picture": "https://picsum.photos/2087"
+  },
+  {
+    "id": 88,
+    "title": "laborum dolore",
+    "author": "Alyssa Jennings",
+    "co-author": "Esperanza Lancaster",
+    "year": 8795,
+    "email": "esperanzalancaster@acumentor.com",
+    "phone": "+1 (815) 573-3421",
+    "picture": "https://picsum.photos/2088"
+  },
+  {
+    "id": 89,
+    "title": "deserunt irure",
+    "author": "Goodman Cole",
+    "co-author": "Bond Mcfarland",
+    "year": 4205,
+    "email": "bondmcfarland@acumentor.com",
+    "phone": "+1 (859) 552-2045",
+    "picture": "https://picsum.photos/2089"
+  },
+  {
+    "id": 90,
+    "title": "aute ad",
+    "author": "Buckley Ratliff",
+    "co-author": "Bowen Leon",
+    "year": 8128,
+    "email": "bowenleon@acumentor.com",
+    "phone": "+1 (831) 527-2076",
+    "picture": "https://picsum.photos/2090"
+  },
+  {
+    "id": 91,
+    "title": "excepteur eiusmod",
+    "author": "Natalie Irwin",
+    "co-author": "Katrina Woodward",
+    "year": 8972,
+    "email": "katrinawoodward@acumentor.com",
+    "phone": "+1 (822) 592-2333",
+    "picture": "https://picsum.photos/2091"
+  },
+  {
+    "id": 92,
+    "title": "consequat occaecat",
+    "author": "Craig Hobbs",
+    "co-author": "Lorie Prince",
+    "year": 8109,
+    "email": "lorieprince@acumentor.com",
+    "phone": "+1 (918) 518-3526",
+    "picture": "https://picsum.photos/2092"
+  },
+  {
+    "id": 93,
+    "title": "consequat in",
+    "author": "Beverly Meyer",
+    "co-author": "Karin Mills",
+    "year": 3853,
+    "email": "karinmills@acumentor.com",
+    "phone": "+1 (922) 470-2624",
+    "picture": "https://picsum.photos/2093"
+  },
+  {
+    "id": 94,
+    "title": "ut exercitation",
+    "author": "Fanny Kaufman",
+    "co-author": "Marilyn Jacobson",
+    "year": 4514,
+    "email": "marilynjacobson@acumentor.com",
+    "phone": "+1 (863) 508-2642",
+    "picture": "https://picsum.photos/2094"
+  },
+  {
+    "id": 95,
+    "title": "Lorem consequat",
+    "author": "Estella Macias",
+    "co-author": "Tamara Head",
+    "year": 3350,
+    "email": "tamarahead@acumentor.com",
+    "phone": "+1 (901) 427-3764",
+    "picture": "https://picsum.photos/2095"
+  },
+  {
+    "id": 96,
+    "title": "ad laborum",
+    "author": "Delaney Bauer",
+    "co-author": "Whitney Obrien",
+    "year": 9242,
+    "email": "whitneyobrien@acumentor.com",
+    "phone": "+1 (922) 452-2376",
+    "picture": "https://picsum.photos/2096"
+  },
+  {
+    "id": 97,
+    "title": "velit reprehenderit",
+    "author": "Leah Webb",
+    "co-author": "Mcmahon Hurley",
+    "year": 5934,
+    "email": "mcmahonhurley@acumentor.com",
+    "phone": "+1 (820) 496-2232",
+    "picture": "https://picsum.photos/2097"
+  },
+  {
+    "id": 98,
+    "title": "nisi consequat",
+    "author": "Dennis Stanley",
+    "co-author": "Fletcher Rodriguez",
+    "year": 5868,
+    "email": "fletcherrodriguez@acumentor.com",
+    "phone": "+1 (985) 445-2309",
+    "picture": "https://picsum.photos/2098"
+  },
+  {
+    "id": 99,
+    "title": "nulla adipisicing",
+    "author": "Josephine Boyd",
+    "co-author": "Jana Cantrell",
+    "year": 6653,
+    "email": "janacantrell@acumentor.com",
+    "phone": "+1 (979) 532-2170",
+    "picture": "https://picsum.photos/2099"
+  }
+]
+}

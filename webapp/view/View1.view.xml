@@ -1,0 +1,13 @@
+<mvc:View controllerName="trial1.trial1.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+       <List headerText="Users List" items = "{user>/users}" selectionChange="onUserSelect" mode="SingleSelectMaster">
+        <StandardListItem 
+            title="{user>name}"
+            description="{user>role}"
+            type="Active"
+        />
+       </List>
+    </Page>
+</mvc:View>

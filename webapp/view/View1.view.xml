@@ -2,12 +2,27 @@
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
-       <List headerText="Users List" items = "{user>/users}" selectionChange="onUserSelect" mode="SingleSelectMaster">
-        <StandardListItem 
-            title="{user>name}"
-            description="{user>role}"
-            type="Active"
-        />
-       </List>
+       <Table items ="{user>/users}" >
+	   		<columns>
+				<Column >
+					<Text text="ID" />
+				</Column>
+				<Column >
+					<Text text="Name" />
+				</Column>
+				<Column >
+					<Text text="Role" />
+				</Column>
+			</columns>
+			<items>
+				<ColumnListItem >
+					<cells>
+						<Text text="{user>id}" />
+						<Input value="{user>name}" />
+						<Text text="{user>role}" />
+					</cells>
+				</ColumnListItem>
+			</items>
+	   </Table>
     </Page>
 </mvc:View>

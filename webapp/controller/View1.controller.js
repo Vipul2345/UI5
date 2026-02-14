@@ -8,42 +8,44 @@ sap.ui.define([
     return Controller.extend("trial1.trial1.controller.View1", {
         onInit() {
             var oModel = new JSONModel({
-                users: [
-                    { id: 1, name: "Vipul", role: "Developer", status : "Active"},
-                    { id: 2, name: "Ankit", role: "Tester", status : "Away" },
-                    { id: 3, name: "Aditya", role: "Infra", status : "DeActivated" },
-                ]
+                newTodo : "",
+                todos:[] 
             });
-            this.getView().setModel(oModel, "user")
+            this.getView().setModel(oModel)
         },
-        onLogin(){
-            var data = this.getView().getModel().getData()
-            MessageToast.show(`User Name = ${data.username} , and password is ${data.password}`)
-        },
-        clearData(){
-            this.getView().getModel().setData({
-                username : "",
-                password : ""
+        onAddTodo(){
+            var oModel = this.getView().getModel();
+            var aNewTodo = oModel.getProperty("/newTodo")
+            if(! aNewTodo) return;
+            var bTodos = oModel.getProperty("/todos");
+            bTodos.push({
+                title : aNewTodo,
+                completed : false
             })
+            
+            oModel.setProperty("/todos", bTodos);
+            oModel.setProperty("/newTodo", "");
         },
-        onUserSelect(oEvent){
-            var oItem = oEvent.getParameter("listItem");
-            var oContext = oItem.getBindingContext("user");
-            var data = oContext.getObject();
+        onDeleteTodo(oEvent){
+            var oContext = oEvent.getSource().getBindingContext();
+            var oModel = this.getView().getModel();
 
-            MessageToast.show(data.name +"_"+ data.role)
+            var aTodos = oModel.getProperty("/todos");
+            var index = parseInt(oContext.getPath().split("/")[2]);
+
+            aTodos.splice(index, 1)
+            oModel.setProperty("/todos", aTodos)
+            oModel.refresh()
         },
-        formatStatus(sStatus){
-            if(sStatus === "Active"){
-                return "Success"
-            } else if(sStatus === "Away"){
-                return "Warning"
-            } else{
-                return "Error"
-            }
-        },
-        isDeveloper: function (sRole) {
-            return sRole === "Developer";
+        onCompleteTodo(oEvent){
+            var oContext = oEvent.getSource().getBindingContext();
+            var oModel = this.getView().getModel();
+            var sPath = oContext.getPath()
+            var bCompleted = oModel.getProperty(sPath + "/completed");
+
+            oModel.setProperty(sPath + "/completed", !bCompleted);
+            oModel.refresh()
         }
+        
     });
 });

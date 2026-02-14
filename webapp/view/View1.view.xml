@@ -2,45 +2,22 @@
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
-       <Table items ="{user>/users}" >
-	   		<columns>
-				<Column minScreenWidth="Tablet" demandPopin="true">
-					<Text text="ID" />
-				</Column>
-				<Column minScreenWidth="Tablet" demandPopin="true">
-					<Text text="Name" />
-				</Column>
-				<Column minScreenWidth="Tablet" demandPopin="true">
-					<Text text="Role" />
-				</Column>
-				<Column minScreenWidth="Tablet" demandPopin="true">
-					<Text text="Status" />
-				</Column>
-			</columns>
-			<items>
-				<ColumnListItem >
-					<cells>
-						<Text text="{user>id}" />
-						<Text text="{user>name}" />
-						<VBox>
-							<Text text="{user>role}" />
-							<Text
-							text="Special User"
-							visible="{
-								path: 'user>role',
-								formatter: '.isDeveloper'
-							}"/>
-						</VBox>
-						<ObjectStatus text="{user>status}"
-							state="{
-								path: 'user>status',
-								formatter : '.formatStatus'
-							}" 
-						/>
-						
-					</cells>
-				</ColumnListItem>
-			</items>
-	   </Table>
+		<VBox class="sapUiMediumMargin SpaceBetween">
+			<Input placeholder="Enter new Todo" submit=".onAddTodo" value="{/newTodo}" />
+			<Button text="Add" press="onAddTodo" class="sapUiSmallMarginTop"/>
+
+			<List items="{/todos}">
+				<CustomListItem >
+					<HBox justifyContent="SpaceBetween">
+						<Text text="{title}" class="{= ${completed} ? 'sapCriticalText' : '' }"/>
+						<HBox >
+							<Button text="Delete" press=".onDeleteTodo" type="Transparent"/>
+							<Button text="Complete" press=".onCompleteTodo" type="Transparent"/>
+						</HBox>
+					</HBox>
+				</CustomListItem>
+			</List>
+
+		</VBox>
     </Page>
 </mvc:View>

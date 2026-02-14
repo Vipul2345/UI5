@@ -4,22 +4,40 @@
     <Page id="page" title="{i18n>title}">
        <Table items ="{user>/users}" >
 	   		<columns>
-				<Column >
+				<Column minScreenWidth="Tablet" demandPopin="true">
 					<Text text="ID" />
 				</Column>
-				<Column >
+				<Column minScreenWidth="Tablet" demandPopin="true">
 					<Text text="Name" />
 				</Column>
-				<Column >
+				<Column minScreenWidth="Tablet" demandPopin="true">
 					<Text text="Role" />
+				</Column>
+				<Column minScreenWidth="Tablet" demandPopin="true">
+					<Text text="Status" />
 				</Column>
 			</columns>
 			<items>
 				<ColumnListItem >
 					<cells>
 						<Text text="{user>id}" />
-						<Input value="{user>name}" />
-						<Text text="{user>role}" />
+						<Text text="{user>name}" />
+						<VBox>
+							<Text text="{user>role}" />
+							<Text
+							text="Special User"
+							visible="{
+								path: 'user>role',
+								formatter: '.isDeveloper'
+							}"/>
+						</VBox>
+						<ObjectStatus text="{user>status}"
+							state="{
+								path: 'user>status',
+								formatter : '.formatStatus'
+							}" 
+						/>
+						
 					</cells>
 				</ColumnListItem>
 			</items>

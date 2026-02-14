@@ -9,9 +9,9 @@ sap.ui.define([
         onInit() {
             var oModel = new JSONModel({
                 users: [
-                    { id: 1, name: "Vipul", role: "Developer" },
-                    { id: 2, name: "Ankit", role: "Tester" },
-                    { id: 3, name: "Aditya", role: "Infra" },
+                    { id: 1, name: "Vipul", role: "Developer", status : "Active"},
+                    { id: 2, name: "Ankit", role: "Tester", status : "Away" },
+                    { id: 3, name: "Aditya", role: "Infra", status : "DeActivated" },
                 ]
             });
             this.getView().setModel(oModel, "user")
@@ -32,7 +32,18 @@ sap.ui.define([
             var data = oContext.getObject();
 
             MessageToast.show(data.name +"_"+ data.role)
-
+        },
+        formatStatus(sStatus){
+            if(sStatus === "Active"){
+                return "Success"
+            } else if(sStatus === "Away"){
+                return "Warning"
+            } else{
+                return "Error"
+            }
+        },
+        isDeveloper: function (sRole) {
+            return sRole === "Developer";
         }
     });
 });

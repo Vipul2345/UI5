@@ -2,7 +2,7 @@
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
-       <Table items ="{user>/users}" >
+       <Table items ="{user>/users}"  mode="SingleSelectLeft" selectionChange=".onUserSelect" >
 	   		<columns>
 				<Column minScreenWidth="Tablet" demandPopin="true">
 					<Text text="ID" />

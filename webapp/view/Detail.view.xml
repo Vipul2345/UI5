@@ -1,0 +1,15 @@
+<mvc:View controllerName="trial1.trial1.controller.Detail"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page title="Detail" showNavButton="true" navButtonPress="onNavBack">
+        <content>
+            <VBox >
+                <Text text="{/id}"/>
+                <Text text="{/name}"/>
+                <Text text="{/role}"/>
+                <Text text="{/status}"/>
+            </VBox>
+        </content>
+    </Page>
+
+</mvc:View>

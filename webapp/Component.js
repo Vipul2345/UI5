@@ -17,7 +17,14 @@ sap.ui.define([
             UIComponent.prototype.init.apply(this, arguments);
 
             // set the device model
-            this.setModel(models.createDeviceModel(), "device");
+            var oModel = new sap.ui.model.json.JSONModel({
+                users: [
+                    { id: 1, name: "Vipul", role: "Developer", status: "Active" },
+                    { id: 2, name: "Ankit", role: "Tester", status: "Away" },
+                    { id: 3, name: "Aditya", role: "Infra", status: "DeActivated" }
+                ]
+            });
+            this.setModel(oModel, "user"); // Attached to Component = Global
 
             // enable routing
             this.getRouter().initialize();
